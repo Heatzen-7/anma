@@ -59,6 +59,8 @@ Contoh rekomendasi teratas: Violet Evergarden, Dr. Stone, Jujutsu Kaisen, Mob Ps
 - Mencari model berdasarkan jenis pemilihan franchise, ada franchise yang saya tonton disembunyikan dan model diminta mencari franchise yang dimaksud. Hasilnya Konten + popularitas (maksud dari konten adalah ciri konten (genre, studio, sumber cerita, era)) memiliki nilai 0.81 yang artinya performanya baik. Sebenarnya konten saja sudah memiliki nilai yang cukup baik (0.74). Hal ini menandakan konten anime lebih informatif daripada popularitas. Artinya pilihan tontonan saya dipengaruhi konten daripada hanya populer. Jadi popularitas adalah penguat saya untuk menonton, bukan tujuan utama. Apabila diambil 10 anime teratas, Model K+P berpeluang menemukan 2-3 anime yang disembunyikan, dan sekitar seperempat muncul di 50 teratas (R@50 0,24). Selisih antar metode di dua angka ini kecil dibanding variasinya, jadi saya tidak menyimpulkan model gabungan pasti lebih baik di sini.
 - Rekomendasi dari model memberikan 5 anime berikut : Violet Evergarden, Dr. Stone, Jujutsu Kaisen, Mob Psycho 100, dan Nichijou. Meski memiliki genre dan isi yang mirip dengan beberapa anime yang telah saya tonton, namun saya tidak minat menonton anime yang direkomendasikan murni karena mood (Belum atau tidak berkeinginan menonton). Model hanya menangkap kemiripan ciri, bukan keinginan saat itu.
 
+## Peran saya dan penggunaan AI
+Saya merumuskan pertanyaan, memilih cakupan data, menilai kualitas pengelompokan franchise (mis. menemukan Naruto dan Boruto yang tergabung dan judul panjang dengan jumlah episode 0), menjalankan seluruh alur kerja, dan menafsirkan hasilnya. Kode Python dan SQL ditulis dengan bantuan asisten AI (Claude). Saya sedang mempelajari kodenya, terutama SQL.
 
 ## Keterbatasan
 
