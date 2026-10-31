@@ -1,0 +1,8 @@
+.venv/
+cache/
+data/
+hasil/
+anma.db
+__pycache__/
+.ipynb_checkpoints/
+.env
